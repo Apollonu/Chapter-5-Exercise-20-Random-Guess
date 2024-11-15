@@ -1,9 +1,11 @@
-/*  Project Name: Chapter 5 Exercise 25 - Student Lineup
+/*  Project Name: Chapter 5 Exercise 20 - Random number Guessing Game
     File Name: ConsoleApplication1.cpp
     Programmer: Harrison Hudgins
-    Date: November 14, 2024
+    Date: November 15, 2024
     Requirements:
-    Make a branch based off of the previous code and make it read from a file
+    Write a program that generates a random number and asks the user to guess what the number is.
+    If the user’s guess is higher than the random number, the program should display “Too high, try again.”        If the user’s guess is lower than the random number, the program should display “Too low, try again.”
+    The program should use a loop that repeats until the user correctly guesses the random number.
 */
 
 #include <iostream>
