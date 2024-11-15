@@ -19,10 +19,8 @@ int main()
     unsigned seed = time(0);
     srand(seed);
     int num = rand() % 1000;
-
-    cout << num << endl;
     
-    cout << "Please enter the number that has been generated.\n";
+    cout << "Please guess the random number that has been generated.\n";
     cin >> input;
 
     while (input != num) {
