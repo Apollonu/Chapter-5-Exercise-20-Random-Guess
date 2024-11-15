@@ -33,6 +33,5 @@ int main()
             cin >> input;
         }
     }
-
     cout << "You have guessed correctly.";
 }
